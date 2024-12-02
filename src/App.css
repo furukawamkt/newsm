@@ -1,3 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #2e031b;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  color: #f5d6fc; /* ホバー時の色 */
+}
+
 .App {
   text-align: center;
 }
