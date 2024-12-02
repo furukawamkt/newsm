@@ -75,6 +75,8 @@ function FacilitySelection() {
   if (loadError) return <div>Error loading maps</div>;
   if (!isLoaded) return <div>Loading Maps...</div>;
 
+  console.log(process.env.REACT_APP_GOOGLE_MAPS_MAP_ID);
+
   return (
     <div>
       {/* 確定済み施設をSelectedFacilityInfoに渡す */}
