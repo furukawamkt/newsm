@@ -34,7 +34,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env:
           REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
-          REACT_APP_GOOGLE_MAPS_MAP_ID: "${{ secrets.REACT_APP_GOOGLE_MAPS_MAP_ID }}
+          REACT_APP_GOOGLE_MAPS_MAP_ID: ${{ secrets.REACT_APP_GOOGLE_MAPS_MAP_ID }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
