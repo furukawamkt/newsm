@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import SelectedFacilityInfo from '../components/SelectedFacilityInfo';
 
 function Home() {
